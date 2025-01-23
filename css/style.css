@@ -300,6 +300,7 @@ span {
 /* Portfolio section */
 .portfolio {
   background: var(--second-bg-color);
+  margin-top: 40px;
 }
 
 .portfolio h2 {
@@ -319,6 +320,7 @@ span {
   box-shadow: 0 0 1rem;
   overflow: hidden;
   display: flex;
+  background: black;
 }
 
 .portfolio-box img {
@@ -347,6 +349,10 @@ span {
   transition: 0.5s ease;
 }
 
+.portfolio-box .portfolio-layer .project-icons {
+  width: 60px;
+  height: 60px;
+}
 .portfolio-box:hover .portfolio-layer {
   transform: translateY(0);
 }
