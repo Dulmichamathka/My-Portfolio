@@ -10,7 +10,17 @@
     />
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
     <style>
+
+      .portfolio-container{
+        display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 100px;
+          gap: 2.5rem;
+      }
       .portfolio-box img {
         transition: none;
       }
@@ -18,6 +28,20 @@
       .portfolio-box:hover img {
         transform: none;
       }
+
+      @media (max-width: 1430px) {
+        .portfolio-container .portfolio-box {
+    width: 400px !important;
+    height: 250px !important;
+  }
+
+  .portfolio-container .portfolio-box img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+      
     </style>
   </head>
   <body>
@@ -28,14 +52,7 @@
 
       <div
         class="portfolio-container"
-        style="
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          align-items: center;
-          justify-content: center;
-          margin-bottom: 100px;
-          gap: 3rem;
-        "
+      
       >
         <div class="portfolio-box" style="width: 600px; height: 360px">
           <img
