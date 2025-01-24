@@ -367,7 +367,7 @@ span {
 }
 
 .portfolio-layer a {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 5rem;
@@ -380,6 +380,8 @@ span {
   font-size: 2rem;
   color: var(--second-bg-color);
 }
+
+/* contact section*/
 
 .contact h2 {
   margin-bottom: 3rem;
