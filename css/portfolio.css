@@ -2,6 +2,7 @@
 .portfolio {
   background: var(--second-bg-color);
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .portfolio h2 {
@@ -13,6 +14,7 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2.5rem;
+  margin-bottom: 40px !important;
 }
 
 .portfolio-container .portfolio-box {
