@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+    <style>
+      .portfolio-box img {
+        transition: none;
+      }
+
+      .portfolio-box:hover img {
+        transform: none;
+      }
+
+      @media (max-width: 1430px) {
+        .portfolio-container .portfolio-box {
+          width: 400px !important;
+          height: 250px !important;
+        }
+
+        .portfolio-container .portfolio-box img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h2 class="heading" style="margin-bottom: 25px">
+        Responsive<span> Furniture-website</span>
+      </h2>
+
+      <div
+        class="portfolio-container"
+        style="
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 100px;
+          gap: 2.5rem;
+        "
+      >
+        <div class="portfolio-box" style="width: 600px; height: 360px">
+          <img
+            src="images/HCJ/01-home page.PNG"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+
+        <div class="portfolio-box" style="width: 600px; height: 360px">
+          <img
+            src="images/HCJ/02-new arrival.PNG"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+
+        <div class="portfolio-box" style="width: 600px; height: 360px">
+          <img
+            src="images/HCJ/03-new collection.PNG"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+
+        <div class="portfolio-box" style="width: 600px; height: 360px">
+          <img
+            src="images/HCJ/04-about.PNG"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+        <div class="portfolio-box" style="width: 600px; height: 360px">
+          <img
+            src="images/HCJ/05-patners.PNG"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+        <div class="portfolio-box" style="width: 600px; height: 360px">
+          <img
+            src="images/HCJ/06-footer.PNG"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
