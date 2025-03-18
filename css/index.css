@@ -114,6 +114,11 @@
   .footer {
     padding: 2rem 3%;
   }
+
+  .home-box img {
+    width: 130px;
+    max-height: 70px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -183,10 +188,23 @@
   .portfolio-container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .home-box {
+    max-height: 70px;
+  }
 
-  @media (max-width: 617px) {
-    .portfolio-container {
-      grid-template-columns: 1fr;
-    }
+  .home-box img {
+    width: 130px;
+    max-height: 70px;
+  }
+}
+
+@media (max-width: 617px) {
+  .portfolio-container {
+    grid-template-columns: 1fr;
+  }
+
+  .home-box img {
+    width: 130px;
+    height: 100px;
   }
 }

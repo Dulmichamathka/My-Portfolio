@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html,css,js</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+    <style>
+      .portfolio-box img {
+        transition: none;
+      }
+
+      .portfolio-box:hover img {
+        transform: none;
+      }
+
+      @media (max-width: 1430px) {
+        .portfolio-container .portfolio-box {
+          width: 400px !important;
+          height: 250px !important;
+        }
+
+        .portfolio-container .portfolio-box img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h2 class="heading" style="margin-bottom: 25px">
+        Indoor Plants with <span>animated shopping cart Website</span>
+      </h2>
+
+      <div
+        class="portfolio-container"
+        style="
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 100px;
+          gap: 2.5rem;
+        "
+      >
+        <div class="portfolio-box" style="width: 600px; height: 360px">
+          <img
+            src="images/HCJ/indoor plant images/01-home.PNG"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+
+        <div class="portfolio-box" style="width: 600px; height: 360px">
+          <img
+            src="images/HCJ/indoor plant images/02-products.PNG"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+
+        <div class="portfolio-box" style="width: 600px; height: 360px">
+          <img
+            src="images/HCJ/indoor plant images/03-product-details.PNG"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+
+        <div class="portfolio-box" style="width: 600px; height: 360px">
+          <img
+            src="images/HCJ/indoor plant images/04-product-details.PNG"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+        <div class="portfolio-box" style="width: 600px; height: 360px">
+          <img
+            src="images/HCJ/indoor plant images/05-cart.PNG"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+        <div class="portfolio-box" style="width: 600px; height: 360px">
+          <img
+            src="images/HCJ/indoor plant images/06-cart-amount-increase.PNG"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+
+        <div class="portfolio-box" style="width: 600px; height: 360px">
+          <img
+            src="images/HCJ/indoor plant images/07-cart-amount-increase.PNG"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+
+        <div class="portfolio-box" style="width: 600px; height: 360px">
+          <img
+            src="images/HCJ/indoor plant images/08-no-items.PNG"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
