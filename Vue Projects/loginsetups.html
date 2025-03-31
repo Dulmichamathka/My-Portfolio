@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>figma</title>
+    <title>Vue</title>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/portfolio.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/portfolio.css" />
     <style>
       .portfolio-box img {
         transition: none;
@@ -20,9 +20,15 @@
         transform: none;
       }
 
-      @media (max-width: 391) {
-        section h2 {
-          font-size: 12px;
+      @media (max-width: 1430px) {
+        .portfolio-container .portfolio-box {
+          width: 400px !important;
+          height: 250px !important;
+        }
+
+        .portfolio-container .portfolio-box img {
+          width: 100%;
+          height: 100%;
         }
       }
     </style>
@@ -30,7 +36,7 @@
   <body>
     <section>
       <h2 class="heading" style="margin-bottom: 25px">
-        NIKE<span>Shoes App</span>
+        Login <span> Setups</span>
       </h2>
 
       <div
@@ -44,33 +50,30 @@
           gap: 2.5rem;
         "
       >
-        <div class="portfolio-box" style="width: 200px; height: 400px">
+        <div class="portfolio-box" style="width: 600px; height: 360px">
           <img
-            src="images/figma/Nike Shoes App/Frame 1.png"
+            src="/images/Vue/vue-login2/login2 (1).PNG"
             style="width: 100%; height: 100%"
           />
         </div>
-        <div class="portfolio-box" style="width: 200px; height: 400px">
+
+        <div class="portfolio-box" style="width: 600px; height: 360px">
           <img
-            src="images/figma/Nike Shoes App/Frame 2.png"
+            src="/images/Vue/vue-login2/login2 (2).PNG"
             style="width: 100%; height: 100%"
           />
         </div>
-        <div class="portfolio-box" style="width: 200px; height: 400px">
+
+        <div class="portfolio-box" style="width: 600px; height: 360px">
           <img
-            src="images/figma/Nike Shoes App/Frame 26.png"
+            src="/images/Vue/vue-loginSetup/page01.PNG"
             style="width: 100%; height: 100%"
           />
         </div>
-        <div class="portfolio-box" style="width: 200px; height: 400px">
+
+        <div class="portfolio-box" style="width: 600px; height: 360px">
           <img
-            src="images/figma/Nike Shoes App/Frame 27.png"
-            style="width: 100%; height: 100%"
-          />
-        </div>
-        <div class="portfolio-box" style="width: 200px; height: 400px">
-          <img
-            src="images/figma/Nike Shoes App/Frame 28.png"
+            src="/images/Vue/vue-loginSetup/page02.PNG"
             style="width: 100%; height: 100%"
           />
         </div>

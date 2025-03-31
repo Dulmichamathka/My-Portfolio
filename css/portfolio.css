@@ -14,7 +14,7 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2.5rem;
-  margin-bottom: 40px !important;
+  margin-bottom: 100px !important;
 }
 
 .portfolio-container .portfolio-box {
